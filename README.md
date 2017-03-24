@@ -2,7 +2,7 @@
 
 Nishanth Koganti, Tomoya Tamei, Kazushi Ikeda, Tomohiro Shibata
 
-This repository contains the source code for paper accepted to IEEE Transactions of Robotics. Further details of the project are available on the project [page](https://buntyke.github.io/TRo2017).
+This repository contains the source code for paper accepted to IEEE Transactions of Robotics. Further details of the project are available on the [project page](https://buntyke.github.io/TRo2017).
 
 #### Citation
 
