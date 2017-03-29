@@ -16,21 +16,10 @@ Robotic solutions to clothing assistance can significantly improve the quality-o
 
 ### <a name="demos">Video Demonstrations</a>
 
-Overview of proposed framework
-
-<a href="https://www.youtube.com/watch?v=HKvYQeLbMUQ"><img alt="overview" src="https://img.youtube.com/vi/HKvYQeLbMUQ/0.jpg" width="100" height="100" /></a>
-
-Exploration of latent features learned by Bayesian GPLVM
-
-<a href="https://www.youtube.com/watch?v=A-EeXtpPLvA"><img alt="latent" src="https://img.youtube.com/vi/A-EeXtpPLvA/0.jpg" width="100" height="100" /></a>
-
-Variation in dynamics of clothing task for various postures of mannequin
-
-<a href="https://www.youtube.com/watch?v=0H-yLWhGj9g"><img alt="posture" src="https://img.youtube.com/vi/0H-yLWhGj9g/0.jpg" width="100" height="100" /></a>
-
-Variation in dynamics of clothing task for different T-shirts
-
-<a href="https://www.youtube.com/watch?v=SmqeUaQ30ws"><img alt="posture" src="https://img.youtube.com/vi/SmqeUaQ30ws/0.jpg" width="100" height="100" /></a>
+<a href="https://www.youtube.com/watch?v=HKvYQeLbMUQ"><img alt="overview" src="https://img.youtube.com/vi/HKvYQeLbMUQ/0.jpg" width="200" height="200" style="padding:10px;"/></a>
+<a href="https://www.youtube.com/watch?v=A-EeXtpPLvA"><img alt="latent" src="https://img.youtube.com/vi/A-EeXtpPLvA/0.jpg" width="200" height="200" style="padding:10px;"/></a>
+<a href="https://www.youtube.com/watch?v=0H-yLWhGj9g"><img alt="posture" src="https://img.youtube.com/vi/0H-yLWhGj9g/0.jpg" width="200" height="200" style="padding:10px;"/></a>
+<a href="https://www.youtube.com/watch?v=SmqeUaQ30ws"><img alt="posture" src="https://img.youtube.com/vi/SmqeUaQ30ws/0.jpg" width="200" height="200" style="padding:10px;"/></a>
 
 ### <a name="citation">Citation</a>
 
