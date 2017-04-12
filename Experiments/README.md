@@ -5,7 +5,7 @@
 * [Experiments](#experiments)
 * [Troubleshooting](#troubleshooting)
 
-### Preliminary
+### Preliminary <a name="preliminary"></a>
 This folder contains the source code to reproduce the experimental results presented in the paper.
 
 * It contains sub folders with each folder containing an experiment.
@@ -13,7 +13,7 @@ This folder contains the source code to reproduce the experimental results prese
 * The experiments can be run interactively using [IPython notebooks](https://ipython.org/) for each experiment.
 * The evaluation dataset is available separately at this [link](https://github.com/buntyke/TRo2017/releases/download/v1.0/Data.zip).
 
-### Usage Instructions
+### Usage Instructions <a name="installation"></a>
 
 * Installation of Ipython to run notebooks (For Ubuntu):
 ```
@@ -52,7 +52,7 @@ $ gedit README.md
 $ ipython experiment.ipynb
 ```
 
-### Experiments
+### Experiments <a name="experiments"></a>
 
 * [BGPLVM Experiment](Exp1/README.md): Comparison of BGPLVM with Principal Component Analysis (PCA). Used to generate Figures 8,9 and Table I in paper.
 
@@ -72,7 +72,7 @@ $ ipython experiment.ipynb
 
 * [Latent Features Video](Exp9/READM.md): Visualization of latent features learned by BGPLVM. Used to generate LatentFeatures.mp4 video.
 
-### Troubleshooting
+### Troubleshooting <a name="troubleshooting"></a>
 
 * The Ipython notebooks should run out of the box. However, the GPy API could change for future versions and cause some errors. This code was tested for the following versions of GPy: 0.8.x,1.0.x,1.5.x. Please switch to '1.5.x' if the error persists.
 * The training time could take between 3-4 hrs per model. If the users would like to access the models trained by us, please contact the authors. [Nishanth Koganti](buntyke.github.io), [Tomohiro Shibata](brain.kyutech.ac.jp/~tom).
