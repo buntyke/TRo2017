@@ -1,3 +1,4 @@
+# This program was written to remove the time overhead of using IPython. However, this program was not used to generate the final results in the paper.
 # hybrid.py: Python program to perform optimization on each frame
 # Author: Nishanth Koganti
 # Date: 2016/1/7
@@ -141,8 +142,8 @@ def filterFunc(mrdModel, testData):
     nShared = len(sharedDims)
 
     # get init latent state from optimization
-    hybridFPS = 10000.0
-    deltaT = 1.0/hybridFPS
+    hybridFPS = 15.0
+    deltaT = 1.0/30.0
     
     # state transition matrix
     def f_cv(x, dt):
