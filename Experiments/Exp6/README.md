@@ -4,5 +4,5 @@ Evaluation of generalizability of MRD to various postures of mannequin. Used to 
 
 Please create folders in Results as the intermediate results are saved here:
 ```
-$ mkdir ../Results/Exp6/
+$ mkdir -p ../Results/Exp6/
 ```

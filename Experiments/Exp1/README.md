@@ -4,6 +4,6 @@ Comparison of BGPLVM with Principal Component Analysis (PCA). Used to generate F
 
 Please create folders in Models, Results as the intermediate results are saved here:
 ```
-$ mkdir ../Models/Exp1/
-$ mkdir ../Results/Exp1/
+$ mkdir -p ../Models/Exp1/
+$ mkdir -p ../Results/Exp1/
 ```

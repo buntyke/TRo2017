@@ -4,6 +4,6 @@ Comparison of different feature representations for both observation spaces. Use
 
 Please create folders in Results as the intermediate results are saved here:
 ```
-$ mkdir ../Models/Exp5/
-$ mkdir ../Results/Exp5/
+$ mkdir -p ../Models/Exp5/
+$ mkdir -p ../Results/Exp5/
 ```

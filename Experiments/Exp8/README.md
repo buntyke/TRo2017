@@ -4,5 +4,5 @@ Feature representations and latent space visualization. Used to generate later h
 
 Please create folders in Results as the intermediate results are saved here:
 ```
-$ mkdir ../Results/Exp8/
+$ mkdir -p ../Results/Exp8/
 ```

@@ -4,5 +4,5 @@ Visualization of an example MRD model with test inference. Used to generate Figu
 
 Please create folders in Models as the intermediate results are saved here:
 ```
-$ mkdir ../Models/Exp4/
+$ mkdir -p ../Models/Exp4/
 ```

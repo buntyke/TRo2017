@@ -4,6 +4,6 @@ Visualization of latent features learned by BGPLVM. Used to generate LatentFeatu
 
 Please create folders in Models, Results as the intermediate results are saved here:
 ```
-$ mkdir ../Models/Exp9/
-$ mkdir ../Results/Exp9/
+$ mkdir -p ../Models/Exp9/
+$ mkdir -p ../Results/Exp9/
 ```

@@ -4,6 +4,6 @@ Evaluation of generalizability of MRD to various T-shirts. Used to generate Figu
 
 Please create folders in Models, Results as the intermediate results are saved here:
 ```
-$ mkdir ../Models/Exp7/
-$ mkdir ../Results/Exp7/
+$ mkdir -p ../Models/Exp7/
+$ mkdir -p ../Results/Exp7/
 ```

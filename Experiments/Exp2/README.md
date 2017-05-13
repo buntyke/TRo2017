@@ -4,5 +4,5 @@ Comparison of MRD with other linear regression models. Used to generate Figure 1
 
 Please create folders in Results as the intermediate results are saved here:
 ```
-$ mkdir ../Results/Exp2/
+$ mkdir -p ../Results/Exp2/
 ```
