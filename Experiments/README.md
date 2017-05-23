@@ -40,11 +40,6 @@ $ cd TRo2017/Experiments/
 $ wget "https://github.com/buntyke/TRo2017/releases/download/v1.0/Data.zip"
 $ unzip Data.zip
 ```
-* Create additional folders to save the intermediate results during Experiments
-```
-$ mkdir Models
-$ mkdir Results
-```
 * Read an experiment overview and then run the desired experiment in Ipython:
 ```
 $ cd Exp1/
@@ -53,6 +48,8 @@ $ ipython experiment.ipynb
 ```
 
 ### Experiments <a name="experiments"></a>
+
+* [Preprocessing](README.md): Run the preprocessing.ipynb notebook prior to the actual experiments to generate the pickle files of the dataset.
 
 * [BGPLVM Experiment](Exp1/README.md): Comparison of BGPLVM with Principal Component Analysis (PCA). Used to generate Figures 8,9 and Table I in paper.
 
