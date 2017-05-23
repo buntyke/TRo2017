@@ -49,11 +49,15 @@ $ ipython experiment.ipynb
 
 ### Experiments <a name="experiments"></a>
 
-* [Preprocessing](README.md): Run the preprocessing.ipynb notebook prior to the actual experiments to generate the pickle files of the dataset.
+Please follow these steps in order to sequentially generate the results of the paper.
+
+* [Preprocessing](preprocessing.ipynb): Run the preprocessing.ipynb notebook prior to the actual experiments to generate the pickle files of the dataset.
 
 * [BGPLVM Experiment](Exp1/README.md): Comparison of BGPLVM with Principal Component Analysis (PCA). Used to generate Figures 8,9 and Table I in paper.
 
 * [MRD Model Visualization](Exp4/README.md): Visualization of an example MRD model with test inference. Used to generate Figure 10.
+
+* [Model Training](models.ipynb): Run the models.ipynb notebook prior to the cross validation experiments. The execution of this notebook is highly time consuming (about 3 days). Please contact the co-authors, if you would like to obtain the pre-trained models.
 
 * [MRD Model Comparison](Exp2/README.md): Comparison of MRD with other linear regression models. Used to generate Figure 11.
 
