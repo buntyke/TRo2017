@@ -2,7 +2,3 @@
 
 Visualization of an example MRD model with test inference. Used to generate Figure 10.
 
-Please create folders in Models as the intermediate results are saved here:
-```
-$ mkdir -p ../Models/Exp4/
-```
