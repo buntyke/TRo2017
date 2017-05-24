@@ -16,7 +16,6 @@ import cPickle as pickle
 import matplotlib as mpl
 import matplotlib.cm as cm
 import scipy.stats as stats
-from tabulate import tabulate
 from GPy.plotting import Tango
 import sklearn.metrics as metrics
 from sklearn import preprocessing

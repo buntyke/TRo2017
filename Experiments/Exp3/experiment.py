@@ -18,11 +18,9 @@ import numpy as np
 import cPickle as pickle
 from matplotlib import cm
 import scipy.stats as stats
-from tabulate import tabulate
 import sklearn.metrics as metrics
 from sklearn import preprocessing
 import GPy.plotting.Tango as Tango
-from itertools import combinations
 from matplotlib import pyplot as plt
 from filterpy.kalman import KalmanFilter
 from sklearn.neighbors import NearestNeighbors
