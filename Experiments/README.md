@@ -40,11 +40,11 @@ This folder contains the source code to reproduce the experimental results prese
   $ wget "https://github.com/buntyke/TRo2017/releases/download/v1.0/Data.zip"
   $ unzip Data.zip
   ```
-* Read an experiment overview and then run the desired experiment in Ipython:
+* Read an experiment overview and then run the desired experiment in Jupyter notebook:
   ```
   $ cd Exp1/
   $ gedit README.md
-  $ ipython experiment.ipynb
+  $ jupyter notebook
   ```
 
 ### Experiments <a name="experiments"></a>
