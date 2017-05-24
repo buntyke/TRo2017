@@ -16,36 +16,36 @@ This folder contains the source code to reproduce the experimental results prese
 ### Usage Instructions <a name="installation"></a>
 
 * Installation of Ipython to run notebooks (For Ubuntu):
-```
-$ sudo pip install matplotlib --upgrade
-$ sudo pip install numpy --upgrade
-$ sudo pip install scipy --upgrade
-$ sudo pip install jupyter --upgrade
-$ sudo pip install ipython --upgrade
-$ sudo pip install ipython[notebook] --upgrade
-```
-For Windows, MAC OSX: Please install [Anaconda](https://www.continuum.io/downloads) as it contains all the required packages by default.
+  ```
+  $ sudo pip install matplotlib --upgrade
+  $ sudo pip install numpy --upgrade
+  $ sudo pip install scipy --upgrade
+  $ sudo pip install jupyter --upgrade
+  $ sudo pip install ipython --upgrade
+  $ sudo pip install ipython[notebook] --upgrade
+  ```
+  For Windows, MAC OSX: Please install [Anaconda](https://www.continuum.io/downloads) as it contains all the required packages by default.
 * Installation of GPy and its dependencies (For Ubuntu):
-```
-$ sudo pip install GPy --upgrade
-```
-For Windows, Mac OSX: Please follow the installation instructions from the [GPy page](https://github.com/SheffieldML/GPy).
+  ```
+  $ sudo pip install GPy --upgrade
+  ```
+  For Windows, Mac OSX: Please follow the installation instructions from the [GPy page](https://github.com/SheffieldML/GPy).
 * Clone/[Download](https://github.com/buntyke/TRo2017/archive/master.zip) the repository to your PC:
-```
-$ git clone https://github.com/buntyke/TRo2017.git
-```
+  ```
+  $ git clone https://github.com/buntyke/TRo2017.git
+  ```
 * Download evaluation dataset into the Experiments folder:
-```
-$ cd TRo2017/Experiments/
-$ wget "https://github.com/buntyke/TRo2017/releases/download/v1.0/Data.zip"
-$ unzip Data.zip
-```
+  ```
+  $ cd TRo2017/Experiments/
+  $ wget "https://github.com/buntyke/TRo2017/releases/download/v1.0/Data.zip"
+  $ unzip Data.zip
+  ```
 * Read an experiment overview and then run the desired experiment in Ipython:
-```
-$ cd Exp1/
-$ gedit README.md
-$ ipython experiment.ipynb
-```
+  ```
+  $ cd Exp1/
+  $ gedit README.md
+  $ ipython experiment.ipynb
+  ```
 
 ### Experiments <a name="experiments"></a>
 
@@ -75,5 +75,10 @@ Please follow these steps in order to sequentially generate the results of the p
 
 ### Troubleshooting <a name="troubleshooting"></a>
 
+* Installing `jupyter` in Ubuntu could cause a dependency issue with `urllib3`. This can be resolved by running the following command:
+  ```
+  $ pip install appdirs --upgrade
+  ```
+  Please check this [issue](https://github.com/buntyke/TRo2017/issues/1) for further reference.
 * The Ipython notebooks should run out of the box. However, the GPy API could change for future versions and cause some errors. This code was tested for the following versions of GPy: 0.8.x,1.0.x,1.5.x. Please switch to '1.5.x' if the error persists.
 * The training time could take between 3-4 hrs per model. If the users would like to access the models trained by us, please contact the authors. [Nishanth Koganti](buntyke.github.io), [Tomohiro Shibata](brain.kyutech.ac.jp/~tom).
