@@ -22,6 +22,7 @@ This folder contains the source code to reproduce the experimental results prese
   $ sudo pip install scipy --upgrade
   $ sudo pip install jupyter --upgrade
   $ sudo pip install ipython --upgrade
+  $ sudo pip install filterpy --upgrade
   $ sudo pip install ipython[notebook] --upgrade
   ```
   For Windows, MAC OSX: Please install [Anaconda](https://www.continuum.io/downloads) as it contains all the required packages by default.
