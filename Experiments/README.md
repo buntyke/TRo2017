@@ -1,6 +1,7 @@
 ## TRo 2017 Experiments
 
 * [Preliminary](#preliminary)
+* [Docker Usage](#docker)
 * [Installation](#installation)
 * [Experiments](#experiments)
 * [Troubleshooting](#troubleshooting)
@@ -13,7 +14,63 @@ This folder contains the source code to reproduce the experimental results prese
 * The experiments can be run interactively using [IPython notebooks](https://ipython.org/) for each experiment.
 * The evaluation dataset is available separately at this [link](https://github.com/buntyke/TRo2017/releases/download/v1.0/Data.zip).
 
-### Usage Instructions <a name="installation"></a>
+### Docker Instructions <a name="docker"></a>
+
+* A docker image was created with all the required software installed. This is the easiest way to use the source code.
+
+#### Instructions for Windows:
+
+* Install Docker by running the following command:
+```
+sudo apt-get install -y docker.io
+```
+* Clone the docker image for the workshop
+```
+sudo docker pull buntyke/tro2017
+```
+* Run the docker image for the workshop
+```
+sudo docker run -it -p 8888:8888 buntyke/tro2017
+```
+* The command outputs text that includes an URL like this:
+```
+Copy/paste this URL into your browser when you connect for the first time, to login with a token:
+http://localhost:8888/?token=b8dbd6e58f68195b150bfcc69751bd97ddc20c097767d100
+```
+Copy the url and paste in the web browser to start the Ipython session.
+
+#### Instructions for Ubuntu:
+
+* Download docker-toolbox from this [link](https://www.docker.com/products/docker-toolbox).
+* Install docker-toolbox and agree with all options. This will install Docker-Quickstart-Terminal.
+* Open the Docker-Quickstart-Terminal application which opens a terminal.
+* Download the docker image with this command:
+```
+docker pull buntyke/tro2017
+```
+* Run the docker image with this command:
+```
+docker run -it -p 8888:8888 buntyke/tro2017
+```
+The command outputs text that includes an URL like this:
+```
+Copy/paste this URL into your browser when you connect for the first time, to login with a token:
+http://localhost:8888/?token=b8dbd6e58f68195b150bfcc69751bd97ddc20c097767d100
+```
+* Open a powershell and run the following command:
+```
+docker-machine.exe ip default
+```
+The command outputs an IP like this:
+```
+192.168.99.100
+```
+* Replace localhost with the IP and paste URL above in the web browser to start Ipython session:
+```
+http://192.168.99.100:8888/?token=b8dbd6e58f68195b150bfcc69751bd97ddc20c097767d100
+```
+
+### Installation Instructions <a name="installation"></a>
 
 * Installation of Ipython to run notebooks (For Ubuntu):
   ```
